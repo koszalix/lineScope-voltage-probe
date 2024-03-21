@@ -1020,17 +1020,6 @@
 						(type none)
 					)
 				)
-				(circle
-					(center 1.905 -0.635)
-					(radius 0.0001)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(arc
 					(start 2.54 -6.35)
 					(mid 3.1723 -5.715)
@@ -1250,14 +1239,25 @@
 			)
 			(symbol "TV19G_1_1"
 				(circle
-					(center 5.715 -0.635)
-					(radius 0.0001)
+					(center 1.778 -0.762)
+					(radius 0.1797)
 					(stroke
 						(width 0)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type outline)
+					)
+				)
+				(circle
+					(center 5.842 -0.762)
+					(radius 0.1795)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
 					)
 				)
 				(pin passive line
@@ -3414,7 +3414,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4811abbe-7b58-47b0-820b-99b74f0daca1")
-		(property "Reference" "J4"
+		(property "Reference" "J3"
 			(at 67.31 73.152 0)
 			(effects
 				(font
@@ -3486,7 +3486,7 @@
 		(instances
 			(project "lineScope-voltage-probe"
 				(path "/f70a6e2b-cd21-4196-ad4a-f5246ad31f82"
-					(reference "J4")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -5201,7 +5201,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dc86bfff-ab5b-4b1b-84a6-fe9028d526da")
-		(property "Reference" "J5"
+		(property "Reference" "J4"
 			(at 67.31 84.582 0)
 			(effects
 				(font
@@ -5273,7 +5273,7 @@
 		(instances
 			(project "lineScope-voltage-probe"
 				(path "/f70a6e2b-cd21-4196-ad4a-f5246ad31f82"
-					(reference "J5")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -5442,7 +5442,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e290398f-9cf2-49fa-a89a-53dc6dc42337")
-		(property "Reference" "J3"
+		(property "Reference" "J5"
 			(at 203.2 75.5649 0)
 			(effects
 				(font
@@ -5499,7 +5499,7 @@
 		(instances
 			(project "lineScope-voltage-probe"
 				(path "/f70a6e2b-cd21-4196-ad4a-f5246ad31f82"
-					(reference "J3")
+					(reference "J5")
 					(unit 1)
 				)
 			)
