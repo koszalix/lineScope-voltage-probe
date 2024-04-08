@@ -968,7 +968,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://cdn.shopifycdn.net/s/files/1/2723/6858/files/TV19G-4mA-4mA_946e16aa-11cc-4504-9a2b-71d17dc51546.pdf?v=1661838027"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2855,7 +2855,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://cdn.shopifycdn.net/s/files/1/2723/6858/files/TV19G-4mA-4mA_946e16aa-11cc-4504-9a2b-71d17dc51546.pdf?v=1661838027"
 			(at 114.3 71.12 0)
 			(effects
 				(font
